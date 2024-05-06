@@ -1,0 +1,487 @@
+|alu
+a[0] => result_s.IN0
+a[0] => result_s.IN0
+a[0] => Mux6.IN4
+a[0] => Mux7.IN4
+a[0] => adder8:add0.X[0]
+a[0] => adder8:sub0.X[0]
+a[1] => result_s.IN0
+a[1] => result_s.IN0
+a[1] => Mux5.IN4
+a[1] => Mux6.IN3
+a[1] => Mux7.IN3
+a[1] => adder8:add0.X[1]
+a[1] => adder8:sub0.X[1]
+a[2] => result_s.IN0
+a[2] => result_s.IN0
+a[2] => Mux4.IN4
+a[2] => Mux5.IN3
+a[2] => Mux6.IN2
+a[2] => adder8:add0.X[2]
+a[2] => adder8:sub0.X[2]
+a[3] => result_s.IN0
+a[3] => result_s.IN0
+a[3] => Mux3.IN4
+a[3] => Mux4.IN3
+a[3] => Mux5.IN2
+a[3] => adder8:add0.X[3]
+a[3] => adder8:sub0.X[3]
+a[4] => result_s.IN0
+a[4] => result_s.IN0
+a[4] => Mux2.IN4
+a[4] => Mux3.IN3
+a[4] => Mux4.IN2
+a[4] => adder8:add0.X[4]
+a[4] => adder8:sub0.X[4]
+a[5] => result_s.IN0
+a[5] => result_s.IN0
+a[5] => Mux1.IN4
+a[5] => Mux2.IN3
+a[5] => Mux3.IN2
+a[5] => adder8:add0.X[5]
+a[5] => adder8:sub0.X[5]
+a[6] => result_s.IN0
+a[6] => result_s.IN0
+a[6] => Mux0.IN4
+a[6] => Mux1.IN3
+a[6] => Mux2.IN2
+a[6] => adder8:add0.X[6]
+a[6] => adder8:sub0.X[6]
+a[7] => result_s.IN0
+a[7] => result_s.IN0
+a[7] => Mux0.IN3
+a[7] => Mux1.IN2
+a[7] => Mux8.IN5
+a[7] => adder8:add0.X[7]
+a[7] => adder8:sub0.X[7]
+b[0] => result_s.IN1
+b[0] => result_s.IN1
+b[0] => Mux7.IN5
+b[0] => adder8:add0.Y[0]
+b[0] => adder8:sub0.Y[0]
+b[1] => result_s.IN1
+b[1] => result_s.IN1
+b[1] => Mux6.IN5
+b[1] => adder8:add0.Y[1]
+b[1] => adder8:sub0.Y[1]
+b[2] => result_s.IN1
+b[2] => result_s.IN1
+b[2] => Mux5.IN5
+b[2] => adder8:add0.Y[2]
+b[2] => adder8:sub0.Y[2]
+b[3] => result_s.IN1
+b[3] => result_s.IN1
+b[3] => Mux4.IN5
+b[3] => adder8:add0.Y[3]
+b[3] => adder8:sub0.Y[3]
+b[4] => result_s.IN1
+b[4] => result_s.IN1
+b[4] => Mux3.IN5
+b[4] => adder8:add0.Y[4]
+b[4] => adder8:sub0.Y[4]
+b[5] => result_s.IN1
+b[5] => result_s.IN1
+b[5] => Mux2.IN5
+b[5] => adder8:add0.Y[5]
+b[5] => adder8:sub0.Y[5]
+b[6] => result_s.IN1
+b[6] => result_s.IN1
+b[6] => Mux1.IN5
+b[6] => adder8:add0.Y[6]
+b[6] => adder8:sub0.Y[6]
+b[7] => result_s.IN1
+b[7] => result_s.IN1
+b[7] => Mux0.IN5
+b[7] => adder8:add0.Y[7]
+b[7] => adder8:sub0.Y[7]
+op[0] => Mux0.IN8
+op[0] => Mux1.IN8
+op[0] => Mux2.IN8
+op[0] => Mux3.IN8
+op[0] => Mux4.IN8
+op[0] => Mux5.IN8
+op[0] => Mux6.IN8
+op[0] => Mux7.IN8
+op[0] => Mux8.IN8
+op[1] => Mux0.IN7
+op[1] => Mux1.IN7
+op[1] => Mux2.IN7
+op[1] => Mux3.IN7
+op[1] => Mux4.IN7
+op[1] => Mux5.IN7
+op[1] => Mux6.IN7
+op[1] => Mux7.IN7
+op[1] => Mux8.IN7
+op[2] => Mux0.IN6
+op[2] => Mux1.IN6
+op[2] => Mux2.IN6
+op[2] => Mux3.IN6
+op[2] => Mux4.IN6
+op[2] => Mux5.IN6
+op[2] => Mux6.IN6
+op[2] => Mux7.IN6
+op[2] => Mux8.IN6
+op[2] => adder8:add0.Cin
+op[2] => adder8:sub0.Cin
+result[0] << Mux7.DB_MAX_OUTPUT_PORT_TYPE
+result[1] << Mux6.DB_MAX_OUTPUT_PORT_TYPE
+result[2] << Mux5.DB_MAX_OUTPUT_PORT_TYPE
+result[3] << Mux4.DB_MAX_OUTPUT_PORT_TYPE
+result[4] << Mux3.DB_MAX_OUTPUT_PORT_TYPE
+result[5] << Mux2.DB_MAX_OUTPUT_PORT_TYPE
+result[6] << Mux1.DB_MAX_OUTPUT_PORT_TYPE
+result[7] << Mux0.DB_MAX_OUTPUT_PORT_TYPE
+zero << Mux9.DB_MAX_OUTPUT_PORT_TYPE
+cout << Mux8.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|adder8:add0
+Cin => adder4:stage0.Cin
+X[0] => adder4:stage0.X[0]
+X[1] => adder4:stage0.X[1]
+X[2] => adder4:stage0.X[2]
+X[3] => adder4:stage0.X[3]
+X[4] => adder4:stage1.X[0]
+X[5] => adder4:stage1.X[1]
+X[6] => adder4:stage1.X[2]
+X[7] => adder4:stage1.X[3]
+Y[0] => adder4:stage0.Y[0]
+Y[1] => adder4:stage0.Y[1]
+Y[2] => adder4:stage0.Y[2]
+Y[3] => adder4:stage0.Y[3]
+Y[4] => adder4:stage1.Y[0]
+Y[5] => adder4:stage1.Y[1]
+Y[6] => adder4:stage1.Y[2]
+Y[7] => adder4:stage1.Y[3]
+S[0] <= adder4:stage0.S[0]
+S[1] <= adder4:stage0.S[1]
+S[2] <= adder4:stage0.S[2]
+S[3] <= adder4:stage0.S[3]
+S[4] <= adder4:stage1.S[0]
+S[5] <= adder4:stage1.S[1]
+S[6] <= adder4:stage1.S[2]
+S[7] <= adder4:stage1.S[3]
+Cout <= adder4:stage1.Cout
+
+
+|alu|adder8:add0|adder4:stage0
+Cin => fulladd:stage0.Cin
+X[0] => fulladd:stage0.x
+X[1] => fulladd:stage1.x
+X[2] => fulladd:stage2.x
+X[3] => fulladd:stage3.x
+Y[0] => fulladd:stage0.y
+Y[1] => fulladd:stage1.y
+Y[2] => fulladd:stage2.y
+Y[3] => fulladd:stage3.y
+S[0] <= fulladd:stage0.s
+S[1] <= fulladd:stage1.s
+S[2] <= fulladd:stage2.s
+S[3] <= fulladd:stage3.s
+Cout <= fulladd:stage3.Cout
+
+
+|alu|adder8:add0|adder4:stage0|fulladd:stage0
+Cin => s.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+x => s.IN0
+x => Cout.IN0
+x => Cout.IN1
+y => s.IN1
+y => Cout.IN1
+y => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|adder8:add0|adder4:stage0|fulladd:stage1
+Cin => s.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+x => s.IN0
+x => Cout.IN0
+x => Cout.IN1
+y => s.IN1
+y => Cout.IN1
+y => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|adder8:add0|adder4:stage0|fulladd:stage2
+Cin => s.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+x => s.IN0
+x => Cout.IN0
+x => Cout.IN1
+y => s.IN1
+y => Cout.IN1
+y => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|adder8:add0|adder4:stage0|fulladd:stage3
+Cin => s.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+x => s.IN0
+x => Cout.IN0
+x => Cout.IN1
+y => s.IN1
+y => Cout.IN1
+y => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|adder8:add0|adder4:stage1
+Cin => fulladd:stage0.Cin
+X[0] => fulladd:stage0.x
+X[1] => fulladd:stage1.x
+X[2] => fulladd:stage2.x
+X[3] => fulladd:stage3.x
+Y[0] => fulladd:stage0.y
+Y[1] => fulladd:stage1.y
+Y[2] => fulladd:stage2.y
+Y[3] => fulladd:stage3.y
+S[0] <= fulladd:stage0.s
+S[1] <= fulladd:stage1.s
+S[2] <= fulladd:stage2.s
+S[3] <= fulladd:stage3.s
+Cout <= fulladd:stage3.Cout
+
+
+|alu|adder8:add0|adder4:stage1|fulladd:stage0
+Cin => s.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+x => s.IN0
+x => Cout.IN0
+x => Cout.IN1
+y => s.IN1
+y => Cout.IN1
+y => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|adder8:add0|adder4:stage1|fulladd:stage1
+Cin => s.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+x => s.IN0
+x => Cout.IN0
+x => Cout.IN1
+y => s.IN1
+y => Cout.IN1
+y => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|adder8:add0|adder4:stage1|fulladd:stage2
+Cin => s.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+x => s.IN0
+x => Cout.IN0
+x => Cout.IN1
+y => s.IN1
+y => Cout.IN1
+y => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|adder8:add0|adder4:stage1|fulladd:stage3
+Cin => s.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+x => s.IN0
+x => Cout.IN0
+x => Cout.IN1
+y => s.IN1
+y => Cout.IN1
+y => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|adder8:sub0
+Cin => adder4:stage0.Cin
+X[0] => adder4:stage0.X[0]
+X[1] => adder4:stage0.X[1]
+X[2] => adder4:stage0.X[2]
+X[3] => adder4:stage0.X[3]
+X[4] => adder4:stage1.X[0]
+X[5] => adder4:stage1.X[1]
+X[6] => adder4:stage1.X[2]
+X[7] => adder4:stage1.X[3]
+Y[0] => adder4:stage0.Y[0]
+Y[1] => adder4:stage0.Y[1]
+Y[2] => adder4:stage0.Y[2]
+Y[3] => adder4:stage0.Y[3]
+Y[4] => adder4:stage1.Y[0]
+Y[5] => adder4:stage1.Y[1]
+Y[6] => adder4:stage1.Y[2]
+Y[7] => adder4:stage1.Y[3]
+S[0] <= adder4:stage0.S[0]
+S[1] <= adder4:stage0.S[1]
+S[2] <= adder4:stage0.S[2]
+S[3] <= adder4:stage0.S[3]
+S[4] <= adder4:stage1.S[0]
+S[5] <= adder4:stage1.S[1]
+S[6] <= adder4:stage1.S[2]
+S[7] <= adder4:stage1.S[3]
+Cout <= adder4:stage1.Cout
+
+
+|alu|adder8:sub0|adder4:stage0
+Cin => fulladd:stage0.Cin
+X[0] => fulladd:stage0.x
+X[1] => fulladd:stage1.x
+X[2] => fulladd:stage2.x
+X[3] => fulladd:stage3.x
+Y[0] => fulladd:stage0.y
+Y[1] => fulladd:stage1.y
+Y[2] => fulladd:stage2.y
+Y[3] => fulladd:stage3.y
+S[0] <= fulladd:stage0.s
+S[1] <= fulladd:stage1.s
+S[2] <= fulladd:stage2.s
+S[3] <= fulladd:stage3.s
+Cout <= fulladd:stage3.Cout
+
+
+|alu|adder8:sub0|adder4:stage0|fulladd:stage0
+Cin => s.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+x => s.IN0
+x => Cout.IN0
+x => Cout.IN1
+y => s.IN1
+y => Cout.IN1
+y => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|adder8:sub0|adder4:stage0|fulladd:stage1
+Cin => s.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+x => s.IN0
+x => Cout.IN0
+x => Cout.IN1
+y => s.IN1
+y => Cout.IN1
+y => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|adder8:sub0|adder4:stage0|fulladd:stage2
+Cin => s.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+x => s.IN0
+x => Cout.IN0
+x => Cout.IN1
+y => s.IN1
+y => Cout.IN1
+y => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|adder8:sub0|adder4:stage0|fulladd:stage3
+Cin => s.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+x => s.IN0
+x => Cout.IN0
+x => Cout.IN1
+y => s.IN1
+y => Cout.IN1
+y => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|adder8:sub0|adder4:stage1
+Cin => fulladd:stage0.Cin
+X[0] => fulladd:stage0.x
+X[1] => fulladd:stage1.x
+X[2] => fulladd:stage2.x
+X[3] => fulladd:stage3.x
+Y[0] => fulladd:stage0.y
+Y[1] => fulladd:stage1.y
+Y[2] => fulladd:stage2.y
+Y[3] => fulladd:stage3.y
+S[0] <= fulladd:stage0.s
+S[1] <= fulladd:stage1.s
+S[2] <= fulladd:stage2.s
+S[3] <= fulladd:stage3.s
+Cout <= fulladd:stage3.Cout
+
+
+|alu|adder8:sub0|adder4:stage1|fulladd:stage0
+Cin => s.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+x => s.IN0
+x => Cout.IN0
+x => Cout.IN1
+y => s.IN1
+y => Cout.IN1
+y => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|adder8:sub0|adder4:stage1|fulladd:stage1
+Cin => s.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+x => s.IN0
+x => Cout.IN0
+x => Cout.IN1
+y => s.IN1
+y => Cout.IN1
+y => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|adder8:sub0|adder4:stage1|fulladd:stage2
+Cin => s.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+x => s.IN0
+x => Cout.IN0
+x => Cout.IN1
+y => s.IN1
+y => Cout.IN1
+y => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|adder8:sub0|adder4:stage1|fulladd:stage3
+Cin => s.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+x => s.IN0
+x => Cout.IN0
+x => Cout.IN1
+y => s.IN1
+y => Cout.IN1
+y => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
