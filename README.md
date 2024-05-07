@@ -1,6 +1,6 @@
 **COE608**
 
-This Repo showcases my lab exercises for the course ELE532. It's important to avoid plagiarism as it would be a breach of policy 60; please use these materials strictly for reference.
+This Repo showcases my lab exercises for the course COE608. It's important to avoid plagiarism as it would be a breach of policy 60; please use these materials strictly for reference.
 
 All of the labs works properly.
 The link below will direct to a list of lab manuals.
